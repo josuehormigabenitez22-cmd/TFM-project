@@ -30,13 +30,14 @@ Python · PySpark (Spark SQL y MLlib) · scikit-learn · Apache Cassandra · Doc
 
 ## Cómo ejecutarlo
 
-El notebook está pensado para Google Colab. Sube `customer_churn_10k.csv` a tu Google Drive en `MyDrive/TFM/` y ejecuta las celdas en orden; la parte de Cassandra se ejecuta aparte, en una terminal con Docker (los comandos están en la sección II del notebook).
+El notebook está pensado para Google Colab. El dataset está en [`data/customer_churn_10k.csv`](data/customer_churn_10k.csv): súbelo a tu Google Drive en `MyDrive/TFM/` y ejecuta las celdas en orden; la parte de Cassandra se ejecuta aparte, en una terminal con Docker (los comandos están en la sección II del notebook).
 
 ## Documentos
 
 | Archivo | Contenido |
 |---|---|
 | [`TFM_JosueJuan_Hormiga_Benitez.ipynb`](TFM_JosueJuan_Hormiga_Benitez.ipynb) | Notebook con todo el código: Cassandra, análisis con PySpark, correlaciones y Random Forest en scikit-learn y MLlib |
+| [`data/customer_churn_10k.csv`](data/customer_churn_10k.csv) | Dataset utilizado: 10.000 clientes y 12 variables |
 | [`informe_JosueJuan_Hormiga_Benitez.pdf`](informe_JosueJuan_Hormiga_Benitez.pdf) | Memoria completa con el análisis y las conclusiones |
 | [`tecnico_JosueJuan_Hormiga_Benitez.pdf`](tecnico_JosueJuan_Hormiga_Benitez.pdf) | Documento técnico con el código y los comandos paso a paso |
 | [`presentacion_JosueJuan_Hormiga_Benitez.pdf`](presentacion_JosueJuan_Hormiga_Benitez.pdf) | Presentación del trabajo |
